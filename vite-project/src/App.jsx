@@ -1,7 +1,15 @@
+import Card from "./Components/Card";
+import Counter from "./Components/Counter";
+
 function App() {
+  let cardObject = {
+    names: "Chai aur Code",
+    para: "lorem10",
+  };
   return (
     <>
-      <h1>Hello World</h1>
+      {/* <Counter /> */}
+      <Card obj={cardObject} />
     </>
   );
 }
